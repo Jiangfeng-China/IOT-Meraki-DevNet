@@ -1,6 +1,3 @@
-
-# Introduction
-=======
 # IOT-IM-Platform
 
 IOT-IM Platform:
