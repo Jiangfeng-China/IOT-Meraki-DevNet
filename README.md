@@ -7,11 +7,29 @@ It is base on Meriki MV, Webex Teams and MOXA DIDO.
 The aim is provide the integration server for IOT door application.
 
 # Getting Started
+There have some hardware equipment and software need to prepare.
+
 * Hardware
+    * A Door
+    * A Web Server with network.
     *  Meriki Camara
         <p align=center>
-        <img src="docs/meraki_mv.png" alt="Meriki Camara" height=400px>
+        <img src="docs/meraki_mv.png" alt="Meriki Camara" height=200px>
         </p>
+    *  MOXA DIDO: IOT connect device
+        <p align=center>
+        <img src="docs/moxa_dido.png" alt="Meriki Camara" height=200px>
+        </p>
+    *  Maganic lock:
+        <p align=center>
+        <img src="docs/maganic_lock.png" alt="Meriki Camara" height=200px>
+        </p>
+* Hardware Topology
+
+
+* Software Dependencies on Webserver
+
+## Demo Topology
 
 ## Description
 
