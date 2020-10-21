@@ -18,18 +18,25 @@ There have some hardware equipment and software need to prepare.
         </p>
     *  MOXA DIDO: IOT connect device
         <p align=center>
-        <img src="docs/moxa_dido.png" alt="Meriki Camara" height=200px>
+        <img src="docs/moxa_dido.png" alt="iot switch" height=200px>
         </p>
-    *  Maganic lock:
+    *  Magnetic lock:
         <p align=center>
-        <img src="docs/maganic_lock.png" alt="Meriki Camara" height=200px>
+        <img src="docs/magnetic_lock.png" alt="Magnetic Lock" height=200px>
         </p>
-* Hardware Topology
-
+* Environment Setup
+    <p align=center>
+    <img src="docs/environment.png" alt="env" height=400px>
+    </p>
 
 * Software Dependencies on Webserver
+    * python3 
+    * Flask : Lite weight web server framwork
 
 ## Demo Topology
+### Use case1: Who open the door?
+
+### Use case2
 
 ## Description
 
