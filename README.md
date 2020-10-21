@@ -1,9 +1,8 @@
-# IOT-IM-Platform
-
-IOT-IM Platform:
-
-IOT + IM + Cloud = IOT-IM Platform
-
+Door-Connect
+=====
+Doot-Connect is the IOT platform for door application.
+It is base on Meriki MV, Webex Teams and MOXA DIDO.
+The aim is provide the integration server for IOT door application.
 
 ## Description
 
@@ -36,4 +35,10 @@ The Python part server as IOT-IM webserver.
 pip install python3
 python3 IOT_Meraki_DevNet.py
 ```
+
+## License
+
+ is freely redistributable under the BSD 2 clause license. Use of
+this source code is governed by a BSD-style license that can be found in the
+LICENSE file.
 
