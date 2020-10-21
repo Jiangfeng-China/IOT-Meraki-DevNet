@@ -6,6 +6,13 @@ It is base on Meriki MV, Webex Teams and MOXA DIDO.
 
 The aim is provide the integration server for IOT door application.
 
+# Getting Started
+* Hardware
+    *  Meriki Camara
+        <p align=center>
+        <img src="docs/meraki_mv.png" alt="Meriki Camara" height=400px>
+        </p>
+
 ## Description
 
 This platform is to build a bridge between IOT device and IM tool.
