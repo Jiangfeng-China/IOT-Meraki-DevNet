@@ -1,7 +1,9 @@
 Door-Connect
 =====
 Doot-Connect is the IOT platform for door application.
+
 It is base on Meriki MV, Webex Teams and MOXA DIDO.
+
 The aim is provide the integration server for IOT door application.
 
 ## Description
