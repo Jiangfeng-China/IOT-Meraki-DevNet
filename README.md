@@ -1,7 +1,7 @@
 Door-Connect
 =====
 Door-Connect is the IOT platform for door application.
-It will bridge IOT device, IM tool (WebexTeams) and Cloud application. <br />
+It will bridge IOT device, IM tool (WebexTeams) and Cloud application.
 In this platform, user can monitor the door environment and even get notify when environment change.
 
 Most Enterprises has some confidential places such as file room, operation room, data center and so on. <br />
@@ -38,7 +38,6 @@ There are some hardware equipment and software need to prepare.
     * Installation
         ```bash
         pip install python3
-        python3 IOT_Meraki_DevNet.py
         ```
 ## Demo Topology
 * **Use case1: Who open the door?**
@@ -50,19 +49,12 @@ There are some hardware equipment and software need to prepare.
     <img src="docs/usercase2.png" alt="usercase2" height=400px>
     </p>
 ## How it works
-
-MOXA Switch detect IOT device's alarm info and send message to Door-Connect webserver.
-
-Door-Connect webserver is triggered to get snapshot from Meraki camera.
-
-Door-Connect webserver send both IOT info and camera snapshot to Door-Connect tool.
-
-The Python part server as Door-Connect webserver.
-
+    1. Run the Door-connect on server `python3 IOT_Meraki_DevNet.py`, it will bridge all door application components.
+    2. IOT device will keep wating the external event happen.
+    3. Once there have event, MOXA DIDO detect IOT device's alarm info and send message to Door-Connect webserver.
+    3. Door-Connect webserver is triggered to get snapshot from Meraki camera.
+    4. Door-Connect webserver send both IOT info and camera snapshot to Door-Connect tool.
 
 ## License
-
- is freely redistributable under the BSD 2 clause license. Use of
-this source code is governed by a BSD-style license that can be found in the
-LICENSE file.
+BSD licensesis freely redistributable under the BSD 2 clause license. Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
