@@ -35,13 +35,13 @@ There have some hardware equipment and software need to prepare.
 
 ## Demo Topology
 ### Use case1: Who open the door?
-        <p align=center>
-        <img src="docs/usercase1.png" alt="usercase1" height=400px>
-        </p>
+    <p align=center>
+    <img src="docs/usercase1.png" alt="usercase1" height=400px>
+    </p>
 ### Use case2: WHO TOUCH MY BELONGINGS?
-        <p align=center>
-        <img src="docs/usercase2.png" alt="usercase2" height=400px>
-        </p>
+    <p align=center>
+    <img src="docs/usercase2.png" alt="usercase2" height=400px>
+    </p>
 
 ## Description
 
