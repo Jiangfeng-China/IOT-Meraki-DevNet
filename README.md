@@ -34,11 +34,11 @@ There have some hardware equipment and software need to prepare.
     * Flask : Lite weight web server framwork
 
 ## Demo Topology
-### Use case1: Who open the door?
+* Use case1: Who open the door?
     <p align=center>
     <img src="docs/usercase1.png" alt="usercase1" height=400px>
     </p>
-### Use case2: WHO TOUCH MY BELONGINGS?
+* Use case2: WHO TOUCH MY BELONGINGS?
     <p align=center>
     <img src="docs/usercase2.png" alt="usercase2" height=400px>
     </p>
