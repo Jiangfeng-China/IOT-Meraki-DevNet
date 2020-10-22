@@ -8,8 +8,11 @@ The aim is provide the integration server for IOT door application.
 
 # Getting Started
 There have some hardware equipment and software need to prepare.
-
-* Hardware
+* Environment Setup
+    <p align=center>
+    <img src="docs/environment.png" alt="env" height=400px>
+    </p>
+* Hardware Component
     * A Door
     * A Web Server with network.
     *  Meriki Camara
@@ -24,10 +27,6 @@ There have some hardware equipment and software need to prepare.
         <p align=center>
         <img src="docs/magnetic_lock.png" alt="Magnetic Lock" height=200px>
         </p>
-* Environment Setup
-    <p align=center>
-    <img src="docs/environment.png" alt="env" height=400px>
-    </p>
 
 * Software Dependencies on Webserver
     * python3 
