@@ -2,6 +2,9 @@ Door-Connect
 =====
 Doot-Connect is the IOT platform for door application. <br />
 It is base on Meriki MV, Webex Teams and MOXA DIDO. The aim is provide the integration server for IOT door application. <br />
+
+Most Enterprises has some confidential places such as file room, operation room, data center and so on. <br />
+They need a good solution which can control and record staff who and when enters these kind of rooms. When there is something happened, they need a simple tool which can provide much more visibility and trace back easily.
 # Getting Started
 There are some hardware equipment and software need to prepare.
 * Environment Setup
@@ -27,9 +30,6 @@ There are some hardware equipment and software need to prepare.
 * Software Dependencies on Webserver
     * python3 
     * Flask : Lite weight web server framwork
-# Background
-Most Enterprises has some confidential places such as file room, operation room, data center and so on. <br />
-They need a good solution which can control and record staff who and when enters these kind of rooms. When there is something happened, they need a simple tool which can provide much more visibility and trace back easily.
 
 ## Demo Topology
 * **Use case1: Who open the door?**
