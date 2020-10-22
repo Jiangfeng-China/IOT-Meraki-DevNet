@@ -52,8 +52,8 @@ There are some hardware equipment and software need to prepare.
     1. Run the Door-connect on server `python3 IOT_Meraki_DevNet.py`, it will bridge all door application components.
     2. IOT device will keep wating the external event happen.
     3. Once there have event, MOXA DIDO detect IOT device's alarm info and send message to Door-Connect webserver.
-    3. Door-Connect webserver is triggered to get snapshot from Meraki camera.
-    4. Door-Connect webserver send both IOT info and camera snapshot to Door-Connect tool.
+    4. Door-Connect webserver is triggered to get snapshot from Meraki camera.
+    5. Door-Connect webserver send both IOT info and camera snapshot to Webex Teams (user application).
 
 ## License
 BSD licensesis freely redistributable under the BSD 2 clause license. Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
