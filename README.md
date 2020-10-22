@@ -1,10 +1,15 @@
 Door-Connect
 =====
-Doot-Connect is the IOT platform for door application. <br />
-It is base on Meriki MV, Webex Teams and MOXA DIDO. The aim is provide the integration server for IOT door application. <br />
+Door-Connect is the IOT platform for door application.
+It will bridge IOT device, IM tool (WebexTeams) and Cloud application. <br />
+In this platform, user can monitor the door environment and even get notify when environment change.
 
 Most Enterprises has some confidential places such as file room, operation room, data center and so on. <br />
 They need a good solution which can control and record staff who and when enters these kind of rooms. When there is something happened, they need a simple tool which can provide much more visibility and trace back easily.
+
+The platform is base on Meriki MV, Webex Teams and MOXA DIDO hardware and our software integration platform.
+The aim is provide the integration server for IOT door application.
+
 # Getting Started
 There are some hardware equipment and software need to prepare.
 * Environment Setup
@@ -30,7 +35,11 @@ There are some hardware equipment and software need to prepare.
 * Software Dependencies on Webserver
     * python3 
     * Flask : Lite weight web server framwork
-
+    * Installation
+        ```bash
+        pip install python3
+        python3 IOT_Meraki_DevNet.py
+        ```
 ## Demo Topology
 * **Use case1: Who open the door?**
     <p align=center>
@@ -40,38 +49,16 @@ There are some hardware equipment and software need to prepare.
     <p align=center>
     <img src="docs/usercase2.png" alt="usercase2" height=400px>
     </p>
-
-## Description
-
-This platform is to build a bridge between IOT device and IM tool.
-
-In this platform, IM tool and IOT device can talk to each other.
-
-User can monitor and control IOT device by IM tool anytime and anywhere.
-
-IOT device can send important info to user's IM tool automatically and in time.
-
-In this project, the IOT devices include Meraki camera and MOXA Switch.
-
-IM tool is Webex Teams
-
-
 ## How it works
 
-MOXA Switch detect IOT device's alarm info and send message to IOT-IM webserver.
+MOXA Switch detect IOT device's alarm info and send message to Door-Connect webserver.
 
-IOT-IM webserver is triggered to get snapshot from Meraki camera.
+Door-Connect webserver is triggered to get snapshot from Meraki camera.
 
-IOT-IM webserver send both IOT info and camera snapshot to IM tool.
+Door-Connect webserver send both IOT info and camera snapshot to Door-Connect tool.
 
-The Python part server as IOT-IM webserver.
+The Python part server as Door-Connect webserver.
 
-
-## Install
-```bash
-pip install python3
-python3 IOT_Meraki_DevNet.py
-```
 
 ## License
 
