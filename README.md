@@ -31,13 +31,16 @@ There are some hardware equipment and software need to prepare.
         <p align=center>
         <img src="docs/magnetic_lock.png" alt="Magnetic Lock" height=200px>
         </p>
-        
-* How to get a Meraki API Key:
+* How to get a Meraki API Key:<br/>
  There is the instruction under https://developer.cisco.com/meraki/api/#!authorization/obtaining-your-meraki-api-key.
- 
-* How to get a Meraki API Key:
+    <p align=center>
+        <img src="docs/GetmerakiAPIkey.png" alt="Magnetic Lock" height=200px>
+    </p>
+* How to create a Webex Bot:<br/>
  This is a create link https://developer.webex.com/my-apps/new/bot
- 
+    <p align=center>
+        <img src="docs/CreateWebexBox.png" alt="Magnetic Lock" height=200px>
+    </p>
 * Software Dependencies on Webserver
     * python3 
     * Flask : Lite weight web server framwork
